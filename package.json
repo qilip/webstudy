@@ -1,0 +1,25 @@
+{
+  "name": "gajoua",
+  "version": "1.0.0",
+  "description": "gajoua web study",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qilip/webstudy.git"
+  },
+  "author": "qilip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qilip/webstudy/issues"
+  },
+  "homepage": "https://github.com/qilip/webstudy#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

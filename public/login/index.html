@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <script src="/js/bootstrap.min.js"></script>
+  <title>Register</title>
+  <script></script>
+  <style>
+    .card{
+      max-width: 500px;
+      margin: 25px auto 25px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      Login
+    </div>
+    <div class="card-body">
+      <form action="/api/login" method="post">
+        <div class="form-group">
+          <label for="username">Username: </label>
+          <input type="text" class="form-control" id="username" name="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password: </label>
+          <input type="password" class="form-control" id="password" name="password" />
+        </div>
+        <div class = "button">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      Register
+    </div>
+    <div class="card-body">
+      <form action="/api/register" method="post">
+        <div class="form-group">
+          <label for="username">Username: </label>
+          <input type="text" class="form-control" id="username" name="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password: </label>
+          <input type="password" class="form-control" id="password" name="password" />
+        </div>
+        <div class = "button">
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
